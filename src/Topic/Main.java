@@ -7,8 +7,8 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        Customer customer1 = new Customer(1,"Kevin", "kevinman", "4246667777", "kevinazoid@gmail.com");
-        Customer customer2 = new Customer(1,"Kyle", "kyleman", "6665554343", "kylozavr@gmail.com");
+        Customer customer1 = new Customer(111,"Kevin", "kevinman", "4246667777", "kevinazoid@gmail.com");
+        Customer customer2 = new Customer(112,"Kyle", "kyleman", "6665554343", "kylozavr@gmail.com");
         Customer[] customers = {customer1, customer2};
 
         Location location1 = new Location("street","city","country");
