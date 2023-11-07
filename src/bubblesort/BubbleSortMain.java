@@ -1,4 +1,4 @@
-package BubbleSort;
+package bubblesort;
 
 public class BubbleSortMain {
     public static void bubbleSort(int[] arr) {
@@ -23,10 +23,6 @@ public class BubbleSortMain {
     }
 
     public static void main(String[] args) {
-        if (args.length < 1) {
-            System.out.println("Usage: java BubbleSortMain <integer1> <integer2> ...");
-            return;
-        }
 
         int[] inputArray = new int[args.length];
         try {

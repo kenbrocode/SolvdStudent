@@ -5,40 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66ad7a0d-fdec-4847-888c-7e88d00b9e25" name="Changes" comment="CommitProject">
-      <change afterPath="$PROJECT_DIR$/src/ECommerceApp/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ECommerceApp/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ECommerceApp/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ECommerceApp/ECommerceApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ECommerceApp/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ECommerceApp/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ECommerceApp/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ECommerceApp/Promotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ECommerceApp/ShippingInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ECommerceApp/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/CustomerEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/ECommerceApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/ECommerceUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/ProductEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Promotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/ShippingInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ecommerceapp/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ecommerceapp/CreditCardPaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ecommerceapp/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ecommerceapp/FastOrderProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ecommerceapp/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ecommerceapp/InvoiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ecommerceapp/OrderProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ecommerceapp/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ecommerceapp/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ecommerceapp/ProductReviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ecommerceapp/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ecommerceapp/StaticExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/DeliveryDestination.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Listing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/PlaceOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/ProductOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/ReturnPolicy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Reviews.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topic/ECommerceBusiness/Seller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort/BubbleSortMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/bubblesort/BubbleSortMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort/BubbleSortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bubblesort/BubbleSortMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ECommerceApp/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ECommerceApp/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ECommerceApp/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecommerceapp/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ECommerceApp/ECommerceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecommerceapp/ECommerceApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ECommerceApp/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecommerceapp/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ECommerceApp/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecommerceapp/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ECommerceApp/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecommerceapp/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ECommerceApp/Promotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecommerceapp/Promotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ECommerceApp/ShippingInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecommerceapp/ShippingInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ECommerceApp/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecommerceapp/ShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -88,9 +80,9 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ECommerceApp.ECommerceApp">
+  <component name="RunManager" selected="Application.ecommerceapp.ECommerceApp">
     <configuration name="BubbleSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BubbleSort.BubbleSortMain" />
+      <option name="MAIN_CLASS_NAME" value="bubblesort.BubbleSortMain" />
       <module name="SolvdStudent" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,19 +94,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Topic.ECommerceBusiness.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ECommerceApp.ECommerceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ECommerceApp.ECommerceApp" />
-      <module name="SolvdStudent" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ECommerceApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,9 +114,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ecommerceapp.ECommerceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecommerceapp.ECommerceApp" />
+      <module name="SolvdStudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecommerceapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ECommerceApp.ECommerceApp" />
+        <item itemvalue="Application.ecommerceapp.ECommerceApp" />
         <item itemvalue="Application.ECommerceApp" />
         <item itemvalue="Application.BubbleSortMain" />
         <item itemvalue="Application.Topic.Main" />
@@ -193,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698992000517</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CommitProject">
+      <option name="closed" value="true" />
+      <created>1698997143474</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698997143474</updated>
+    </task>
+    <task id="LOCAL-00007" summary="CommitProject">
+      <option name="closed" value="true" />
+      <created>1698997154597</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698997154597</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +225,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BubbleSort/BubbleSortMain.java</url>
+          <url>file://$PROJECT_DIR$/src/bubblesort/BubbleSortMain.java</url>
           <line>22</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
