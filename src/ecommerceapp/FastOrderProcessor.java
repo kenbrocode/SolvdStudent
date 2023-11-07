@@ -9,6 +9,6 @@ class FastOrderProcessor implements OrderProcessor {
 
     @Override
     public void updateStatus(Order order, String status) {
-        order.getShippingInfo().updateStatus(status);
+        order.getShippingInfo().equals(status);
     }
 }

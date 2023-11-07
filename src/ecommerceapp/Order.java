@@ -1,7 +1,7 @@
 package ecommerceapp;
 
 class Order {
-    private int id;
+    int id;
     private ShoppingCart shoppingCart;
     private ShippingInfo shippingInfo;
 

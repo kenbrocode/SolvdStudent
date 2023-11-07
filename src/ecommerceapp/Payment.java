@@ -4,6 +4,15 @@ class Payment {
     private int id;
     private Order order;
     private String paymentMethod;
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
     private double amount;
 
     public Payment(int id, Order order) {
@@ -15,9 +24,7 @@ class Payment {
         this.paymentMethod = paymentMethod;
     }
 
-    public void setAmount(double amount) {
-        this.amount = amount;
-    }
+
 
     @Override
     public String toString() {
