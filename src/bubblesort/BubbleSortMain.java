@@ -1,4 +1,4 @@
-package solvd.laba.bubblesort;
+package bubblesort;
 
 public class BubbleSortMain {
     public static void bubbleSort(int[] arr) {

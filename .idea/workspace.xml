@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66ad7a0d-fdec-4847-888c-7e88d00b9e25" name="Changes" comment="CommitProject">
+      <change afterPath="$PROJECT_DIR$/src/bubblesort/BubbleSortMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/bubblesort/BubbleSortMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/bubblesort/BubbleSortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bubblesort/BubbleSortMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +59,9 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ecommerceapp.ECommerceApp">
+  <component name="RunManager" selected="Application.solvd.ecommerceapp.ECommerceApp">
     <configuration name="BubbleSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bubblesort.BubbleSortMain" />
+      <option name="MAIN_CLASS_NAME" value="solvd.bubblesort.BubbleSortMain" />
       <module name="SolvdStudent" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ecommerceapp.ECommerceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ecommerceapp.ECommerceApp" />
+    <configuration name="solvd.ecommerceapp.ECommerceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solvd.ecommerceapp.ECommerceApp" />
       <module name="SolvdStudent" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ecommerceapp.*" />
+          <option name="PATTERN" value="solvd.ecommerceapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,7 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ecommerceapp.ECommerceApp" />
+        <item itemvalue="Application.solvd.ecommerceapp.ECommerceApp" />
         <item itemvalue="Application.ECommerceApp" />
         <item itemvalue="Application.BubbleSortMain" />
         <item itemvalue="Application.Topic.Main" />
@@ -193,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699369718378</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CommitProject">
+      <option name="closed" value="true" />
+      <created>1699372262415</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699372262415</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
