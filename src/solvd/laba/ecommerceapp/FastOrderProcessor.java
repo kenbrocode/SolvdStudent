@@ -1,4 +1,4 @@
-package ecommerceapp;
+package solvd.laba.ecommerceapp;
 
 class FastOrderProcessor implements OrderProcessor {
     @Override

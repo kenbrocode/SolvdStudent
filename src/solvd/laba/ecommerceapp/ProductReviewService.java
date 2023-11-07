@@ -1,4 +1,4 @@
-package ecommerceapp;
+package solvd.laba.ecommerceapp;
 
 interface ProductReviewService {
     void addReview(Review review);

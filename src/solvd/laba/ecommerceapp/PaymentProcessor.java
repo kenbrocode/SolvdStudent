@@ -1,4 +1,4 @@
-package ecommerceapp;
+package solvd.laba.ecommerceapp;
 
 interface PaymentProcessor {
     void processPayment(Payment payment);

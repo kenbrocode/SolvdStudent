@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="66ad7a0d-fdec-4847-888c-7e88d00b9e25" name="Changes" comment="CommitProject">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ecommerceapp/FastOrderProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecommerceapp/FastOrderProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ecommerceapp/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecommerceapp/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ecommerceapp/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecommerceapp/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ecommerceapp/ShippingInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecommerceapp/ShippingInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699368872260</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="CommitProject">
+      <option name="closed" value="true" />
+      <created>1699369718378</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699369718378</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
