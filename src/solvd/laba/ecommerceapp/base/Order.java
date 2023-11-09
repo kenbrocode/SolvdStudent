@@ -1,7 +1,10 @@
-package solvd.laba.ecommerceapp;
+package solvd.laba.ecommerceapp.base;
 
-class Order {
-    int id;
+
+import solvd.laba.ecommerceapp.exceptions.OrderProcessingException;
+
+public class Order {
+    public int id;
     private ShoppingCart shoppingCart;
     private ShippingInfo shippingInfo;
 
@@ -11,12 +14,15 @@ class Order {
         this.shippingInfo = new ShippingInfo();
     }
 
-    public void processOrder() {
-        // Order processing logic
+    public void processOrder() throws OrderProcessingException {
+        // Simulate order processing, e.g., updating inventory, generating invoices, etc.
+        if (id == 2) {
+            throw new OrderProcessingException("Failed to process order " + id);
+        }
+        System.out.println("Processing Order #" + id);
     }
 
     public double getTotalAmount() {
-        // Calculate the total order amount
         double totalAmount = 0;
         for (int i = 0; i < shoppingCart.itemCount; i++) {
             totalAmount += shoppingCart.products[i].price * shoppingCart.quantities[i];

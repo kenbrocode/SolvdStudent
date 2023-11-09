@@ -1,8 +1,8 @@
-package solvd.laba.ecommerceapp;
+package solvd.laba.ecommerceapp.base;
 
-class Customer {
+public class Customer {
     private int id;
-    String name;
+    public String name;
     private String email;
 
     public Customer(int id, String name, String email) {
@@ -11,3 +11,4 @@ class Customer {
         this.email = email;
     }
 }
+

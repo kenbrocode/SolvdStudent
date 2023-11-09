@@ -1,10 +1,10 @@
-package solvd.laba.ecommerceapp;
+package solvd.laba.ecommerceapp.base;
 
 import java.time.LocalDate;
 
-class Product {
+public class Product {
     private int id;
-    String name;
+    public String name;
     double price;
     private LocalDate manufacturingDate;
 

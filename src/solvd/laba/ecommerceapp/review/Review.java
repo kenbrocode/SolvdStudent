@@ -1,6 +1,9 @@
-package solvd.laba.ecommerceapp;
+package solvd.laba.ecommerceapp.review;
 
-class Review {
+import solvd.laba.ecommerceapp.base.Customer;
+import solvd.laba.ecommerceapp.base.Product;
+
+public class Review {
     private int id;
     private Product product;
     private Customer customer;
