@@ -1,8 +1,8 @@
-package solvd.laba.ecommerceapp;
+package solvd.laba.ecommerceapp.base;
 
 import java.time.LocalDate;
 
-class ShippingInfo {
+public class ShippingInfo {
     private LocalDate estimatedDeliveryDate;
 
     public void setEstimatedDeliveryDate(LocalDate estimatedDeliveryDate) {
@@ -13,5 +13,4 @@ class ShippingInfo {
     public String toString() {
         return "Estimated Delivery Date: " + estimatedDeliveryDate;
     }
-
 }

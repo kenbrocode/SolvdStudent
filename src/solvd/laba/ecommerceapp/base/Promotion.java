@@ -1,4 +1,4 @@
-package solvd.laba.ecommerceapp;
+package solvd.laba.ecommerceapp.base;
 
 class Promotion {
     public static double applyDiscount(double originalAmount, double discount) {

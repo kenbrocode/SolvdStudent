@@ -1,8 +1,10 @@
-package solvd.laba.ecommerceapp;
+package solvd.laba.ecommerceapp.payment;
+
+import solvd.laba.ecommerceapp.base.Order;
 
 import java.time.LocalDate;
 
-class Invoice {
+public class Invoice {
     private int id;
     private Order order;
     private double amount;

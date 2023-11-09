@@ -1,4 +1,4 @@
-package solvd.laba.ecommerceapp;
+package solvd.laba.ecommerceapp.base;
 
 class ShoppingCart {
     Product[] products;

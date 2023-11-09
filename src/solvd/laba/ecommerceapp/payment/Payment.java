@@ -1,19 +1,12 @@
-package solvd.laba.ecommerceapp;
+package solvd.laba.ecommerceapp.payment;
 
-class Payment {
+import solvd.laba.ecommerceapp.base.Order;
+
+public class Payment {
     private int id;
-    private Order order;
+    Order order;
     private String paymentMethod;
-
-    public double getAmount() {
-        return amount;
-    }
-
-    public void setAmount(double amount) {
-        this.amount = amount;
-    }
-
-    private double amount;
+    double amount;
 
     public Payment(int id, Order order) {
         this.id = id;
@@ -24,7 +17,9 @@ class Payment {
         this.paymentMethod = paymentMethod;
     }
 
-
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
 
     @Override
     public String toString() {

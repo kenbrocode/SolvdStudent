@@ -5,10 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66ad7a0d-fdec-4847-888c-7e88d00b9e25" name="Changes" comment="CommitProject">
-      <change afterPath="$PROJECT_DIR$/src/bubblesort/BubbleSortMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/ECommerceApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/exceptions/InvalidPaymentAmountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/exceptions/OrderProcessingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/exceptions/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/payment/CreditCardPaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/processor/FastOrderProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/bubblesort/BubbleSortMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/bubblesort/BubbleSortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bubblesort/BubbleSortMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/CreditCardPaymentProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/ECommerceApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/FastOrderProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/payment/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/InvoiceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/OrderProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/processor/OrderProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/payment/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/PaymentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/payment/PaymentProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/ProductReviewService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Promotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/Promotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/review/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/ShippingInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/ShippingInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/StaticExample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -59,7 +83,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.solvd.ecommerceapp.ECommerceApp">
+  <component name="RunManager" selected="Application.solvd.laba.ecommerceapp.base.ECommerceApp">
     <configuration name="BubbleSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solvd.bubblesort.BubbleSortMain" />
       <module name="SolvdStudent" />
@@ -106,8 +130,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="solvd.laba.ecommerceapp.base.ECommerceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solvd.laba.ecommerceapp.base.ECommerceApp" />
+      <module name="SolvdStudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solvd.laba.ecommerceapp.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.solvd.laba.ecommerceapp.base.ECommerceApp" />
         <item itemvalue="Application.solvd.ecommerceapp.ECommerceApp" />
         <item itemvalue="Application.ECommerceApp" />
         <item itemvalue="Application.BubbleSortMain" />
@@ -204,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699372262415</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="CommitProject">
+      <option name="closed" value="true" />
+      <created>1699372816959</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699372816959</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +277,11 @@
           <url>file://$PROJECT_DIR$/src/bubblesort/BubbleSortMain.java</url>
           <line>22</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/ECommerceApp.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
