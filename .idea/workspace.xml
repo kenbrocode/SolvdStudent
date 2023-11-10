@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66ad7a0d-fdec-4847-888c-7e88d00b9e25" name="Changes" comment="CommitProject">
-      <change afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/ECommerceApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/exceptions/InvalidPaymentAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/exceptions/OrderProcessingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/exceptions/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/payment/CreditCardPaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/processor/FastOrderProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/CreditCardPaymentProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/CustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/ECommerceApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/FastOrderProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/payment/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/InvoiceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/OrderProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/processor/OrderProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/payment/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/PaymentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/payment/PaymentProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/ProductReviewService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Promotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/Promotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/review/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/ShippingInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/ShippingInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/base/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/laba/ecommerceapp/StaticExample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +224,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699372816959</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="CommitProject">
+      <option name="closed" value="true" />
+      <created>1699515699714</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699515699715</updated>
+    </task>
+    <task id="LOCAL-00013" summary="CommitProject">
+      <option name="closed" value="true" />
+      <created>1699515710999</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699515710999</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
