@@ -3,6 +3,8 @@ package solvd.laba.ecommerceapp.base;
 
 import solvd.laba.ecommerceapp.exceptions.OrderProcessingException;
 
+import static org.apache.log4j.builders.appender.SocketAppenderBuilder.LOGGER;
+
 public class Order {
     public int id;
     private ShoppingCart shoppingCart;
@@ -19,7 +21,7 @@ public class Order {
         if (id == 2) {
             throw new OrderProcessingException("Failed to process order " + id);
         }
-        System.out.println("Processing Order #" + id);
+        LOGGER.info("Processing Order #" + id);
     }
 
     public double getTotalAmount() {
